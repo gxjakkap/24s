@@ -8,6 +8,6 @@
 		"tagName": "v${version}"
 	},
 	"hooks": {
-		"before:release": ["pnpm fl", "pnpm test"]
+		"before:release": ["pnpm build", "pnpm fl", "pnpm test"]
 	}
 }

@@ -11,6 +11,7 @@
 		"dist/**/*.ts"
 	],
 	"scripts": {
+		"build": "tsc",
 		"release": "release-it",
 		"test": "jest",
 		"fl": "biome check --write",
