@@ -7,7 +7,20 @@
 	},
 	"files": {
 		"ignoreUnknown": false,
-		"includes": ["**", "!.vscode", ".zed", "!dist", "!node_modules"]
+		"includes": [
+			"src/**",
+			"test/**",
+			"package.json",
+			"tsconfig.json",
+			"jest.config.ts",
+			"README.md",
+			"biome.json",
+			".release-it.json",
+			".gitattributes",
+			".gitignore",
+			".npmignore",
+			"COPYING"
+		]
 	},
 	"formatter": {
 		"enabled": true,

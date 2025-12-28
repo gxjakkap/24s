@@ -14,8 +14,8 @@
 		"build": "tsc",
 		"release": "release-it",
 		"test": "jest",
-		"fl": "biome check --write",
-		"format": "biome format --write"
+		"fl": "biome check --write .",
+		"format": "biome format --write ."
 	},
 	"keywords": [
 		"24",
