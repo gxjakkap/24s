@@ -7,6 +7,9 @@
 		"commitMessage": "chore: release ${version}",
 		"tagName": "v${version}"
 	},
+	"npm": {
+		"publish": true
+	},
 	"hooks": {
 		"before:release": ["pnpm build", "pnpm fl", "pnpm test"]
 	}
